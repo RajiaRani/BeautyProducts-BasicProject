@@ -1,0 +1,36 @@
+<% layout("layouts/boilerplate.ejs") %>
+
+
+
+    <div class=" mt-3">
+      <h3>Dazzling Lipstick Collection</h3>
+    <p>Explore our exquisite lipstick range that combines vibrant hues, luxurious textures, and long-lasting formulas.
+      Each lipstick is carefully crafted to enhance your beauty and make a statement.
+      Indulge in a spectrum of shades, from sultry mattes to luscious glosses, designed to suit every mood and occasion.
+      Elevate your lip game with our Dazzling Lipstick Collection.</p>
+    </div>
+
+    <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1">
+    
+      <% for(let list of allLip) { %>
+   
+        <div class="card col">
+
+         <a href="/home/lipsticks/<%= list._id %>">
+          <img src="<%= list.image%>" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">
+              <b>
+                <%= list.brand %>
+              </b>
+              <br />
+              <%= list.shade %>
+            </p>
+          </div>
+         </a>
+        </div>
+        <% } %>
+        
+    </div>
+
+    <a href="/home">Back</a>

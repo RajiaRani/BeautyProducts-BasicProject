@@ -1,0 +1,179 @@
+body {
+  margin: 0;
+}
+
+.body-container {
+  margin-left: 12rem;
+
+}
+
+
+
+
+/* lipsticks page */
+.img {
+  height: 500px;
+  width: 500px;
+  padding: 0.2rem;
+  border-radius: 4px;
+}
+
+.card-img-top {
+
+
+  width: 20rem !important;
+  /* Set width to auto to maintain the original width */
+  height: 20rem !important;
+  /* Set height to auto to maintain the original height */
+
+  object-fit: cover !important;
+  /* Maintain the aspect ratio while fitting within the container */
+
+}
+
+.card-body {
+  padding: 0 !important;
+}
+
+.card {
+  margin-top: 2rem !important;
+  margin-bottom: 2rem !important;
+
+}
+
+
+/* Footer */
+#main-footer {
+  width: 100%;
+  background-color: black;
+  color: #ffffff;
+  height: 350px;
+}
+
+#section {
+  width: 75%;
+  margin: 0px auto 30px auto;
+  padding-top: 10px;
+
+}
+
+#main-footer footer {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #ffffff;
+  border-top: 1px solid #efebf1;
+}
+
+#main-footer ul {
+  list-style: none;
+  width: 20%;
+  padding: 0;
+  float: left;
+  color: #ffffff;
+}
+
+.navCat li {
+  padding: 5px;
+}
+
+#main-footer .topLevel {
+  font-size: 1.2em;
+  font-variant: small-caps;
+}
+
+.navCat>li>a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.2em;
+}
+
+.navCat>li>a:hover {
+  color: rgba(255, 217, 0, 0.719);
+  font-size: 1.5em;
+}
+
+
+/* Navigation-Bar */
+#main-nav {
+  clear: both;
+  background-color: black;
+  color: #ffffff;
+  font-size: 1.2em;
+  padding: 0;
+  margin: 0;
+  position: sticky;
+}
+
+nav {
+  margin-left: 20%;
+}
+
+nav ul {
+  list-style: none;
+  height: 55px;
+}
+
+.navBar a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#main-nav li {
+  padding: 10px;
+  float: left;
+}
+
+.navBar a:hover {
+  color: rgba(255, 217, 0, 0.719);
+}
+
+#left-nav {
+  background-color: black;
+  width: 10%;
+  float: right;
+  margin-top: -6.2%;
+
+}
+
+.leftBar {
+  padding: 3px;
+}
+
+
+/* facepage */
+
+.cover-container{
+  margin-top: -14px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.text-overlay{
+  position: absolute;
+}
+
+/* face content container */
+.content-container img{
+  height: 20rem;
+  width: 20rem;
+  object-fit: cover;
+
+
+}
+.card{
+  border: none;
+}
+
+

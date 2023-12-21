@@ -1,0 +1,29 @@
+<% layout("layouts/boilerplate.ejs") %>
+
+  <div>
+    <div class="cover-container">
+        <img src="<%=sampleFace.image%>" >
+
+</div>
+</div>
+<div class="content-container">
+  <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1">
+    <% for(let faceContent of allFaceContent) { %>
+    <div class="card col ">
+     <a href="/home/face/<%= faceContent._id %>">
+      <img src="<%= faceContent.img %>" alt="">
+         <div class="card-body">
+          <p class="card-text">
+            <b><%= faceContent.brand %></b>
+            <br>
+            <%= faceContent.heading %>
+          </p>
+
+         </div>
+        </a>
+        </div>
+     
+      <% } %>
+    </div>
+  </div>
+
